@@ -1,0 +1,45 @@
+
+Aluna: Anna Beatriz Serikyaku 	NUSP: 13672811
+
+Desenvolvi duas soluções para o problema:
+
+============ Primeira solução ============
+
+X <- ler um número
+Y <- ler um número 
+
+Se X > 0 e Y > 0
+	imprimir "O ponto se encontra no primeiro quadrante"
+
+Se não
+	Se X > 0 e Y < 0
+		imprimir "O ponto se encontra no segundo quadrante"
+
+	Se não
+		Se X < 0 e Y > 0 
+			imprimir "O ponto se encontra no terceiro quadrante"
+		
+		Se não
+			imprimir "O ponto se encontra no quarto quadrante"
+FIM
+
+
+============ Segunda solução ============
+
+X <- ler um número
+Y <- ler um número
+
+Se X > 0 
+	Se Y > 0
+		imprimir "O ponto se encontra no primeiro quadrante"
+	
+	Se não
+		imprimir "O ponto se encontra no quarto quadrante"
+
+Se não
+	Se Y > 0
+		imprimir "O ponto se encontra no segundo quadrante"
+	
+	Se não
+		imprimir "O ponto se encontra no terceiro quadrante"
+FIM
