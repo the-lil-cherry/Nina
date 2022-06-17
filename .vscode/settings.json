@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "EX3.C": "cpp"
+        "EX3.C": "cpp",
+        "random": "c"
     }
 }
