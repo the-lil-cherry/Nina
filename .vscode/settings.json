@@ -1,6 +1,8 @@
 {
     "files.associations": {
         "EX3.C": "cpp",
-        "random": "c"
+        "random": "c",
+        "EX8.C": "cpp",
+        "EP3.C": "cpp"
     }
 }

@@ -26,7 +26,6 @@ int main(){
             scanf("%d", &M[i][j]);
         }
     }
-
     for(int i = 0; i<n ; i++){
         for (int j = 0; j<n; j++){
             if(i > 0){
@@ -43,6 +42,25 @@ int main(){
     else{
         printf("Simétrica");
     }
-    
+}
 
+// problema 41: dados inteiros positivos m, n e p e duad matrizes de inteiros A e B de dimensões mxn e nxp, respectivamente, calcilar a matriz produto AxB
+
+int main (){
+    int m, n,p, A[MAX][MAX], B[MAX][MAX], C[MAX][MAX];
+    int i, j, k;
+
+    scanf("%d %d %d", &m, &n, &p);
+    lematriz(m, n, A);
+    lematriz(n, p, B);
+
+    for(i = 0; i<m ; i++){
+        for(j = 0; j<p; j++){
+            /*calcular c[i][j]*/ 
+            c[i][j];
+            for(k = 0; k<n; k++){
+                c[i][j] = c[i][j] + A[i][j]*B[k][j];
+            }
+        }
+    }
 }
